@@ -1,9 +1,16 @@
-# ATM Simulation System - Team 2 Implementation
+# ATM Simulation System
 
-Simulate balance enquiry, cash withdrawal, deposit and PIN change.
+A simple menu-driven ATM program written in C for my 1st semester programming practice.
 
-## How to Build & Execute
-```sh
-gcc -Wall main.c -o run_proj
-./run_proj
+### Features
+- Check account balance
+- Deposit money
+- Withdraw cash
+- Change PIN
+
+### How to Run
+Compile and run using GCC:
+```bash
+gcc main.c -o atm
+./atm
 ```
